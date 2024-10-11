@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Optimized Blog Prompt Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/ico" href="/favicon.ico">
+</head>
+<body>
+
+    <body>
+
+        <div class="container">
+            <h1>SEO Optimized Blog Prompt Generator</h1>
+            
+            <!-- Input Fields -->
+            <label for="mainKeyword">Main Keyword:</label>
+           <textarea id="mainKeyword" type="text" placeholder="Enter Main Keyword" style="height: 50px;" ></textarea>
+            
+       
+    
+            <label for="lsiKeywords">LSI Keywords:</label>
+            <textarea id="lsiKeywords" type="text" placeholder="Enter LSI Keywords" style="height: 100px;" ></textarea>
+    
+            <label for="entityInclude">Entity Include:</label>
+            <textarea id="entityInclude" type="text" placeholder="Enter Entities to Include" style="height: 100px;" ></textarea>
+    
+            <label for="language">Language:</label>
+            <select id="language">
+                <option value="English (US)">English (US)</option>
+                <!-- Add more languages here if needed -->
+            </select>
+    
+            <label for="aiWordRemoval">AI Word Removal:</label>
+            <select id="aiWordRemoval">
+                <option value="No AI Words Removal">No AI Words Removal</option>
+                <option value="Basic AI Words Removal">Basic AI Words Removal</option>
+                <option value="Extended AI Words Removal">Extended AI Words Removal</option>
+            </select>
+    
+            <label for="seoUrl">URL:</label>
+            <select id="seoUrl">
+                <option value="Generate SEO optimized URL">Generate SEO optimized URL</option>
+                <!-- Add more options if needed -->
+            </select>
+    
+            <label for="seoTitle">Title:</label>
+            <select id="seoTitle">
+                <option value="Generate SEO optimized title within 60 Characters">Generate SEO optimized title within 60 Characters</option>
+                <!-- Add more options if needed -->
+            </select>
+    
+            <label for="metaDesc">Meta Description</label>
+            <select id="metaDesc">
+                <option value="Generate SEO optimized meta description within 160 Characters">Generate SEO optimized meta description within 160 Characters</option>
+                <!-- Add more options if needed -->
+            </select>
+    
+            <label for="articleSize">Blog Size:</label>
+            <select id="articleSize">
+                <option value="X-Small: 600-1200 words">X-Small: 1200 words </option>
+                <option value="Small: 1200-2400 words">Small: 1200-2400 words</option>
+                <option value="Medium: 2400-3600 ">Medium: 2400-3600 words</option>
+                <option value="Large: 3600-5200 words">Large: 3600-5200 words</option>
+            </select>
+    
+            <label for="toneOfVoice">Tone of Voice:</label>
+            <select id="toneOfVoice">
+                <option value="None">None</option>
+                <option value="Friendly">Friendly</option>
+                <option value="Professional">Professional</option>
+                <option value="Informational">Informational</option>
+                <option value="Transactional">Transactional</option>
+                <option value="Inspirational">Inspirational</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Witty">Witty</option>
+                <option value="Casual">Casual</option>
+                <option value="Authoritative">Authoritative</option>
+                <option value="Encouraging">Encouraging</option>
+                <option value="Persuasive">Persuasive</option>
+                <option value="Poetic">Poetic</option>
+            </select>
+    
+            <label for="pointOfView">Point of View:</label>
+            <select id="pointOfView">
+                <option value="First person singular">First person singular (I, me, my, mine)</option>
+                <option value="First person plural">First person plural (we, us, our, ours)</option>
+                <option value="Second person">Second person (you, your, yours)</option>
+                <option value="Third person">Third person (he, she, it, they)</option>
+                <option value="None">None</option>
+            </select>
+    
+            <label for="introHook">Introductory Hook:</label>
+            <select id="introHook">
+                <option value="Question: Craft an intriguing question that immediately draws the reader's attention. The question should be relevant to the article's topic and evoke curiosity or challenge common beliefs. Aim to make the reader reflect or feel compelled to find the answer within the article.">Question</option>
+                <option value="Statistical or Fact: Begin with a surprising statistic or an unexpected fact that relates directly to the article's main topic. This hook should provide a sense of scale or impact that makes the reader eager to learn more about the subject">Statistical or Fact</option>
+                <option value="Quotation: Use a powerful or thought-provoking quote from a well-known figure that ties into the theme of the article. The quote should set the tone for the article and provoke interest in the topic.">Quotation</option>
+                <option value="Anecdotal or Story: Create a brief, engaging story or anecdote that is relevant to the article's main subject. This story should be relatable and set the stage for the main content.">Anecdotal or Story</option>
+                <option value="Personal or Emotional: Write an emotionally resonant opening that connects personally with the reader. This could be a reflection, a personal experience, or an emotional appeal that aligns with the article's theme.">Personal or Emotional</option>
+            </select>
+    
+            <label for="conclusion">Conclusion:</label>
+            <select id="conclusion">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="targetCountry">Target Country:</label>
+            <select id="targetCountry">
+                <option value="United States">United States</option>
+                <!-- Add more countries here -->
+            </select>
+    
+            <label for="humanizeText">Humanize Text:</label>
+            <select id="humanizeText">
+                <option value="None">None</option>
+                <option value="5th grade">5th grade, easily understood by 11-year-olds</option>
+                <option value="6th grade">6th grade, easy to read. Conversational language</option>
+                <option value="7th grade">7th grade, fairly easy to read</option>
+                <option value="8th & 9th grade">8th & 9th grade, easily understood (Recommended)</option>
+                <option value="10th to 12th grade">10th to 12th grade, fairly difficult to read</option>
+            </select>
+    
+            <label for="youtubeVideos">YouTube Videos:</label>
+            <select id="youtubeVideos">
+                <option value="None">None</option>
+                <option value="Yes">Yes</option>
+            </select>
+    
+            <label for="numberOfVideos">Number of Videos:</label>
+            <select id="numberOfVideos">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+    
+            <label for="tables">Tables:</label>
+            <select id="tables">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="bold">Bold:</label>
+            <select id="bold">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="h2">H2 Headings:</label>
+            <select id="h2">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="h3">H3 Headings:</label>
+            <select id="h3">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="lists">Lists:</label>
+            <select id="lists">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="italics">Italics:</label>
+            <select id="italics">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="quotes">Quotes:</label>
+            <select id="quotes">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+    
+            <label for="faq">FAQ:</label>
+            <select id="faq">
+                <option value="Yes">Yes, with Q: A:</option>
+                <option value="No">No</option>
+            </select>
+    
+            <!-- Generate Button -->
+            <button onclick="generateContent()">Generate & Copy Prompt</button>
+    
+            <!-- Generated Content Display -->
+            <h2>Your Prompt 👇 </h2>
+            <textarea id="generatedContent" readonly></textarea>
+        </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p> All credit goes to ChatGPT, Claude & <a href="https://www.facebook.com/rokon84077" target="_blank">Md. Rokonuzzaman</a></p>
+    </footer>
+
+</body>
+</html>
